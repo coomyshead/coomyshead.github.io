@@ -59,9 +59,6 @@ $(function () {
 
     createCollectable('steve',700,550,1,1)
     createCollectable('steve',400,250,1,1)
-    createCollectable('steve',400,450,1,1)
-    createCollectable('steve',700,350,1,1)
-    createCollectable('steve',700,150,1,1)
     createCollectable('steve',400,50,1,1)
 
     // TODO 3
