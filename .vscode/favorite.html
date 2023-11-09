@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Practice Using CSS</title>
+        <style>
+                        body {
+                background: white;
+                color: black;
+                padding: 10px;
+                font-family: arial;
+                font-size: 20px;
+            }
+            #all-contents {
+                margin: auto;
+                justify-content: center;
+            }
+            /* navigation menu */
+            nav {
+                background: teal;
+                margin: auto;
+                display: flex;
+                padding:10px;
+                border-radius: 10px;
+                border-color: black;
+                margin: 0 auto;
+                margin-bottom: 15px;
+                max-width: fit-content;
+                box-shadow: 6px 6px #0000004b;
+                width: 1500px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: beige;
+                flex: 1;
+                margin: 10px;
+                font-style: oblique;
+                font-size: 40px;
+                padding: 10px;
+            }
+h2 {
+  color:beige
+}
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 5px;
+            }
+            .nav-a {
+                text-decoration: none;
+                color: beige;
+                padding-right: 25px;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: teal;
+                display: flex;
+                border-radius: 10px;
+                border-color: black;
+                max-width: 1000px;
+                justify-content: center;
+                box-shadow: 6px 6px #0000004b;
+                margin: auto;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                padding-right: 100px;
+            }
+         .content h1 {
+            display: flex;
+                align-items: center;
+                color: beige;
+                flex: 1;
+                margin: 0;
+                font-style: oblique;
+                font-size: 40px;
+                padding: 10px;
+         }
+         
+         #portfolio {
+             list-style-type: none;
+             padding-left: 0;
+         }
+         
+         #portfolio li {
+            transition: 150ms;
+             background: lightblue;
+             padding: 10px;
+             border-radius: 10px;
+             margin-bottom: 10px;
+             margin-left: 20px;
+             margin-right: 20px;
+             box-shadow: 6px 5px #0000004b;
+             margin-bottom: 15px;
+         }
+         
+         #portfolio li:hover {
+             background: turquoise;
+             box-shadow: 10px 8px #0000004b;
+         } 
+         
+         #portfolio a {
+             text-decoration: none;
+             color: black;
+         }
+         h2 {
+            margin-left: 10px;
+         }
+
+#portfolio a:hover {
+  color:black
+}
+        </style>
+    </head>
+
+    <body>
+        <div id="all-contents">
+        <nav>
+            <br>
+            <h1>My Favorite Movies/TV Shows</h1>
+            <ul id="nav-ul">
+                <li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
+                <li class="nav-li"><a class="nav-a" href="portfolio.html">Portfolio</a></li>
+                <li class="nav-li"><a class="nav-a" href="images.html">Images</a></li>
+                <li class="nav-li"><a class="nav-a" href="video.html">Videos</a></li>
+            </ul>
+        </nav>
+        <main>
+        <div class="content">
+          <!-- PUT YOUR NAME AND CLASS PERIOD BELOW -->
+            <h2>A 4th Hour Project by: Jacob Strain</h2>
+            <ul id="portfolio">
+            <li><a href="https://www.youtube.com/watch?v=0VH9WCFV6XQ" target="_blank">FNAF: A movie about animatronics coming to life.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=yjRHZEUamCc" target="_blank">John Wick: Chapter 4: A movie about John Wick against the High Table.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=bHXejJq5vr0" target="_blank">65: A movie about a guy that gets sent to the prehistoric age.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=QF-oyCwaArU" target="_blank">The Nun 2: A movie about a possessed demon nun.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=naWC6PCPXoY" target="_blank">Insidious: The Red Door: A movie about a kid's dreams truning into a living nightmare.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=shW9i6k8cB0" target="_blank">Spider-Man: Across the Spider-Verse: A movie about spiderman traveling across spider verses.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=nu6R7ypaz5g" target="_blank">Ghost Rider: A movie about a man who can turn into just bones and set himself ablaze.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=5tUMvM7wx_0" target="_blank">Cocaine Bear: A movie about a bear finding abandoned cocaine.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dG91B3hHyY4" target="_blank">Meg 2: The Trench: A movie about a megalodon attacking deep sea divers.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=itnqEauWQZM" target="_blank">Transformers: Rise Of The Beast: A movie about transformers the look like animals fight with the transformers as one.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=DhlaBO-SwVE" target="_blank">Expendables 4: A movie about a group of men that are the world's last line of defense.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=Y274jZs5s7s" target="_blank">Extraction 2: A movie about a man who embarks on a dangerous mission to save a ruthless gangster's imprisoned family.</a></li>
+
+            </ul>
+        </div>
+        </main>
+      </div>
+    </body>
+</html>
